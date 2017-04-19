@@ -1,6 +1,7 @@
 ---
-layout: start
 
+layout: start
+date: 2017-05-18
 title: Innovating an innovative market
 
 ---

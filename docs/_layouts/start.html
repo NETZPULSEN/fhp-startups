@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+	<div class="container">
+
+		<div class="col-sm-4">
+			{% include navigation.html %}
+		</div>
+
+		<div class="col-sm-8">
+			<div class="row">
+				<div class="col-sm-12">
+					{{content}}
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>
+						<a href="/companies">Companies</a>
+					</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				{% assign sorted_pages = site.pages | sort:"order" %}
+				{% for page in sorted_pages %}
+				{% if page.url contains '/companies' %}
+				{% unless page.name contains 'index' %}
+				<div class="col-sm-4">
+					<div class="card">
+						<div class="card-block">
+							<a href="{{page.url}}">
+								{{page.title}}
+							</a>
+						</div>
+					</div>
+				</div>
+				{% endunless %}
+				{% endif %}
+				{% endfor %}
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>
+						<a href="/founders">Founder</a>
+					</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				{% assign sorted_pages = site.pages | sort:"order" %}
+				{% for page in sorted_pages %}
+				{% if page.url contains '/founder' %}
+				{% unless page.name contains 'index' %}
+				<div class="col-sm-4">
+					<div class="card">
+						<div class="card-block">
+							<a href="{{page.url}}">
+								{{page.title}}
+							</a>
+						</div>
+					</div>
+				</div>
+				{% endunless %}
+				{% endif %}
+				{% endfor %}
+			</div>
+
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>
+						<a href="/events">Events</a>
+					</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				{% assign sorted_pages = site.pages | sort:"order" %}
+				{% for page in sorted_pages %}
+				{% if page.url contains '/events' %}
+				{% unless page.name contains 'index' %}
+				<div class="col-sm-12">
+					<div class="card">
+						<div class="card-block">
+							<a href="{{page.url}}">
+								{{page.title}}
+							</a>
+						</div>
+					</div>
+				</div>
+				{% endunless %}
+				{% endif %}
+				{% endfor %}
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>
+						<a href="/jobs">Jobs</a>
+					</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				{% assign sorted_pages = site.pages | sort:"order" %}
+				{% for page in sorted_pages %}
+				{% if page.url contains '/jobs' %}
+				{% unless page.name contains 'index' %}
+				<div class="col-sm-4">
+					<div class="card">
+						<div class="card-block">
+							<a href="{{page.url}}">
+								{{page.title}}
+							</a>
+						</div>
+					</div>
+				</div>
+				{% endunless %}
+				{% endif %}
+				{% endfor %}
+			</div>
+
+
+
+		</div>
+
+		
+	</div>
+	{% include footer.html %}
+</body>
+</html>
