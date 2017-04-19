@@ -1,0 +1,14 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "name": "bluprint",
+  "description": "bluprint",
+  "repository": "bluprint",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-livereload": "^3.0.2",
+    "node-bourbon": "^1.2.3",
+    "gulp-sass": "^2.2.0"
+  }
+}
