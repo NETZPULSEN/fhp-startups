@@ -6,4 +6,4 @@ key: blogfoster
 
 ---
 
-blogfoster GmbH
+# blogfoster GmbH
