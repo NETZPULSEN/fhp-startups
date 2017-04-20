@@ -1,8 +1,6 @@
 ---
-layout: start
 
-title: FHP Founders+
+layout: start
+title: FHP Founders
 
 ---
-
-# FHP Founders

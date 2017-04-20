@@ -1,5 +1,5 @@
 ---
-layout: start
+layout: simple
 
 title: Head of Marketing at blogfoster
 company: blogfoster

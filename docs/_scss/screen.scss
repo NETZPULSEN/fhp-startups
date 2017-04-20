@@ -3,3 +3,124 @@
 
 @import "bourbon";
 @import "bootstrap";
+
+$blue: #7EB7C4;
+$darkblue: rgba(100, 130, 140, 1);
+
+body {
+	color: $darkblue;
+}
+
+* {
+	list-style: none;
+}
+
+h1 {
+	color: #FFF;
+	text-shadow: 0 10px 20px rgba(100, 130, 140, 0.4);
+}
+
+h2 {
+	color: #FFF;
+	text-shadow: 0 10px 20px rgba(100, 130, 140, 0.4);
+	padding: 30px 0 15px 0;
+	a {
+		color: #FFF;
+	}
+}
+
+a {
+	color: $darkblue;
+}
+nav {
+	z-index: 10;
+
+	li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	a {
+		color: #D9E9ED;
+		font-size: 20px;
+		font-weight: bold;
+		text-shadow: 0 10px 20px rgba(100, 130, 140, 0.4);
+	}
+}
+
+.tiles {
+	width: 1500px;
+	height: 1000px;
+	position: absolute;
+	z-index: 1;
+	top: -500px;
+	left: -500px;
+
+	transform: rotate(30deg);
+
+	.col-tiles {
+		width: 33%;
+		height: 100%;
+		float: left;
+
+		&-one {
+			width: 66%;
+		}
+	}
+
+	.tiles-box {
+		width: 100%;
+		height: 400px;
+		float: left;
+		background: $blue;
+
+		&-one {
+			height: 1000px;
+		}
+
+		&-two {
+			height: 800px;
+			opacity: 0.2;
+		}
+
+		&-three {
+			height: 700px;
+			opacity: 0.5;
+		}
+
+		&-four {
+			height: 500px;
+			opacity: 0.4;
+		}
+	}
+}
+
+.col-padding {
+	padding-top: 70px;
+}
+
+.container {
+
+	div[class*="col-sm-"] {
+		z-index: 10;
+	}
+}
+
+.card {
+	border: none;
+	box-shadow: 0 10px 20px rgba(100, 130, 140, 0.4)
+}
+
+.footer-nav {
+
+	ul {
+		width: auto;
+		float: right;
+	}
+
+	li {
+
+		float: left;
+		padding: 5px 10px;
+	}
+}

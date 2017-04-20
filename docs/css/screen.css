@@ -5332,3 +5332,83 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     display: none !important; } }
 
 /*# sourceMappingURL=bootstrap.css.map */
+body {
+  color: #64828c; }
+
+* {
+  list-style: none; }
+
+h1 {
+  color: #FFF;
+  text-shadow: 0 10px 20px rgba(100, 130, 140, 0.4); }
+
+h2 {
+  color: #FFF;
+  text-shadow: 0 10px 20px rgba(100, 130, 140, 0.4);
+  padding: 30px 0 15px 0; }
+  h2 a {
+    color: #FFF; }
+
+a {
+  color: #64828c; }
+
+nav {
+  z-index: 10; }
+  nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  nav a {
+    color: #D9E9ED;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 10px 20px rgba(100, 130, 140, 0.4); }
+
+.tiles {
+  width: 1500px;
+  height: 1000px;
+  position: absolute;
+  z-index: 1;
+  top: -500px;
+  left: -500px;
+  transform: rotate(30deg); }
+  .tiles .col-tiles {
+    width: 33%;
+    height: 100%;
+    float: left; }
+    .tiles .col-tiles-one {
+      width: 66%; }
+  .tiles .tiles-box {
+    width: 100%;
+    height: 400px;
+    float: left;
+    background: #7EB7C4; }
+    .tiles .tiles-box-one {
+      height: 1000px; }
+    .tiles .tiles-box-two {
+      height: 800px;
+      opacity: 0.2; }
+    .tiles .tiles-box-three {
+      height: 700px;
+      opacity: 0.5; }
+    .tiles .tiles-box-four {
+      height: 500px;
+      opacity: 0.4; }
+
+.col-padding {
+  padding-top: 70px; }
+
+.container div[class*="col-sm-"] {
+  z-index: 10; }
+
+.card {
+  border: none;
+  box-shadow: 0 10px 20px rgba(100, 130, 140, 0.4); }
+
+.footer-nav ul {
+  width: auto;
+  float: right; }
+
+.footer-nav li {
+  float: left;
+  padding: 5px 10px; }

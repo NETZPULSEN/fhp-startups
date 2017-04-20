@@ -4,6 +4,6 @@ title: Start
 
 ---
 
-# FHP Founders
+## We’re supposedly in the midst of a design renaissance… And yet, there’s a dearth of designer founders.”
 
-asdasöld jkasö djaölksdj klasjd kla
+Every year, hundreds of designers finish their exams at University of Applied Sciences Potsdam. Some of them found exciting, design driven companies. Learn more.
