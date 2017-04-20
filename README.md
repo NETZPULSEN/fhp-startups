@@ -6,7 +6,14 @@
 
 If you are a student or alumni of FH Potsdam and have founded a company or startup, you are more than welcome to add your company, open job descriptions and your CV to this website. 
 
-Please therefor clone the repository and stick to the following guidelines when editing code. When finished please open a pull request and we take care about merging your content to the website.
+Please therefore clone the repository and stick to the following guidelines when editing code. When finished please open a pull request and we take care about merging your content to the website.
+
+### Install and run a local copy
+
+* Clone the repository to your machine.
+* Install Jekyll. You find a detailed guide [here](https://jekyllrb.com/docs/installation/).
+* Run jekyll in the cloned folder with `jekyll serve`
+
 
 ### Add a Company
 
@@ -43,4 +50,4 @@ Please note:
 
 ### Add an Event
 
-## Edit CSS
+### Edit CSS
