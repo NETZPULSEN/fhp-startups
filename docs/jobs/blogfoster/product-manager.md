@@ -2,7 +2,8 @@
 layout: page
 
 title: Product Manager
-company: blogfoster
+company: blogfoster GmbH
+key: blogfoster
 
 ---
 

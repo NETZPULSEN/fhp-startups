@@ -2,7 +2,8 @@
 layout: page
 
 title: Internship Online Marketing
-company: blogfoster
+company: blogfoster GmbH
+key: blogfoster
 
 ---
 

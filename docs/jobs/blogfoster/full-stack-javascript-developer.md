@@ -2,7 +2,8 @@
 layout: page
 
 title: Full Stack Javascript Developer
-company: blogfoster
+company: blogfoster GmbH
+key: blogfoster
 
 ---
 

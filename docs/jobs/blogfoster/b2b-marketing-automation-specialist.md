@@ -2,7 +2,8 @@
 layout: page
 
 title: Marketing Automation Specialist
-company: blogfoster
+company: blogfoster GmbH
+key: blogfoster
 
 ---
 
@@ -20,7 +21,7 @@ company: blogfoster
 ### Tasks
 
 - Configure, test and launch enterprise campaigns via email, online advertising and other digital channels.
-- Definition and execution of nurturing campaigns. 
+- Definition and execution of nurturing campaigns.
 - Generate appealing content targeted to different industries and decision makers.
 - Ability to design landing pages, define reporting processes and list segmentation.
 - Working in the marketing team but closely to the sales, operations and engineering teams.
@@ -35,6 +36,6 @@ company: blogfoster
 - Tools (laptop, screen,..)
 - Office location in Mitte.
 - Coffee, drinks, snacks, fruits…
-- Friday beer time 
+- Friday beer time
 - Coaching and professional development path
 - Work hard but play hard!

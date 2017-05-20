@@ -2,7 +2,8 @@
 layout: page
 
 title: Internship Graphic Design
-company: blogfoster
+company: blogfoster GmbH
+key: blogfoster
 
 ---
 

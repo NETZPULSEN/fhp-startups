@@ -2,7 +2,8 @@
 layout: page
 
 title: Devops Engineer
-company: blogfoster
+company: blogfoster GmbH
+key: blogfoster
 
 ---
 
@@ -41,5 +42,3 @@ Furthermore, we utilize MySQL, Redis, CloudWatch and other nice external SaaS so
 - Building the foundation for a globally scalable product
 - Freedom to bring in your ideas and vision
 - Working with bleeding edge technologies
-
-

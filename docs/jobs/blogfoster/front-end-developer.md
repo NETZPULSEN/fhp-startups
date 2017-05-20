@@ -2,7 +2,8 @@
 layout: page
 
 title: Front End Developer
-company: blogfoster
+company: blogfoster GmbH
+key: blogfoster
 
 ---
 

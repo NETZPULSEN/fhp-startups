@@ -2,7 +2,8 @@
 layout: page
 
 title: Sales Manager UK
-company: blogfoster
+company: blogfoster GmbH
+key: blogfoster
 
 ---
 
@@ -13,7 +14,7 @@ Are you clever in the handling of customers, conversion rates and online marketi
 Then it breaks a new career opportunity in the UK Sales Team of the blogfoster GmbH to you.
 
 We, from blogfoster, are moving in a highly growing market that is to date totally unexplored. In doing so, we are turning the topic online marketing upside down. Display advertisement and Google Adwords is from yesterday. Tomorrow, blog and influencer marketing are at the first place.
- 
+
 Are you up for innovation and the successful collaboration in a highly growing company? Then become a part of something revolutionary- become a part of blogfoster.
 
 Apply for Sales Manager UK (Brands) (m/f). Do the next step forward with us together and learn the meaning of the all-dominant Tarzan yell.
@@ -27,7 +28,7 @@ Apply for Sales Manager UK (Brands) (m/f). Do the next step forward with us toge
 - Ability to work independently and reliably
 - Willingness to travel within Europe
 - Passion to help us make blogfoster into a worldwide network of advertisers and influencers
- 
+
 
 ### Our offer to you
 

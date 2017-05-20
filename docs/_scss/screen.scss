@@ -146,3 +146,25 @@ nav {
 	width: 100%;
 	background: #E7F1F3;
 }
+
+.tile-jobs {
+
+	a {
+		width: 100%;
+	}
+	span {
+		float: left;
+		font-size: 13px;
+
+
+		strong {
+			display: block;
+			font-size: 18px;
+		}
+	}
+	img {
+		float: right;
+		max-height: 90px;
+		margin: -1.25rem 0;
+	}
+}

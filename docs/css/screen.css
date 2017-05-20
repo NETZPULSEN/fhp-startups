@@ -5428,3 +5428,18 @@ nav {
 .card-img-top {
   width: 100%;
   background: #E7F1F3; }
+
+.tile-jobs a {
+  width: 100%; }
+
+.tile-jobs span {
+  float: left;
+  font-size: 13px; }
+  .tile-jobs span strong {
+    display: block;
+    font-size: 18px; }
+
+.tile-jobs img {
+  float: right;
+  max-height: 90px;
+  margin: -1.25rem 0; }

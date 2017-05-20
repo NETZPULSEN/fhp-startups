@@ -2,7 +2,8 @@
 layout: page
 
 title: Head of Marketing at blogfoster
-company: blogfoster
+company: blogfoster GmbH
+key: blogfoster
 
 ---
 
