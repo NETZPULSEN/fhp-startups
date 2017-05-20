@@ -9,9 +9,12 @@ $darkblue: rgba(100, 130, 140, 1);
 
 body {
 	color: $darkblue;
+	background: #FAFCFC;
 }
 
 * {
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 
@@ -26,11 +29,21 @@ h2 {
 	padding: 30px 0 15px 0;
 	a {
 		color: #FFF;
+
+		&:hover {
+			text-decoration: none;
+			color: #FFF;
+		}
 	}
 }
 
 a {
 	color: $darkblue;
+
+	&:hover {
+		text-decoration: none;
+		color: $darkblue;
+	}
 }
 nav {
 	z-index: 10;
@@ -45,6 +58,11 @@ nav {
 		font-size: 20px;
 		font-weight: bold;
 		text-shadow: 0 10px 20px rgba(100, 130, 140, 0.4);
+
+		&:hover {
+			text-decoration: none;
+			color: #FFF;
+		}
 	}
 }
 
@@ -113,10 +131,9 @@ nav {
 
 .footer-nav {
 
-	ul {
 		width: auto;
 		float: right;
-	}
+		padding: 20px 0 0 0;
 
 	li {
 

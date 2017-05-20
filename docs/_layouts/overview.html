@@ -10,8 +10,6 @@
 
 
 			<div class="col-sm-4 col-padding">
-
-
 				{% include navigation.html %}
 			</div>
 
@@ -29,15 +27,7 @@
 					{% for page in sorted_pages %}
 					{% if page.url contains '/companies'  %}
 					{% unless page.name contains 'index' %}
-					<div class="col-sm-4">
-						<div class="card">
-							<div class="card-block">
-								<a href="{{page.url}}">
-									{{page.title}}
-								</a>
-							</div>
-						</div>
-					</div>
+					{% include tile_image.html %}
 					{% endunless %}
 					{% endif %}
 					{% endfor %}
@@ -52,15 +42,7 @@
 					{% for page in sorted_pages %}
 					{% if page.url contains '/founders' %}
 					{% unless page.name contains 'index' %}
-					<div class="col-sm-4">
-						<div class="card">
-							<div class="card-block">
-								<a href="{{page.url}}">
-									{{page.title}}
-								</a>
-							</div>
-						</div>
-					</div>
+					{% include tile_image.html %}
 					{% endunless %}
 					{% endif %}
 					{% endfor %}
@@ -75,15 +57,7 @@
 					{% for page in sorted_pages %}
 					{% if page.url contains '/events' %}
 					{% unless page.name contains 'index' %}
-					<div class="col-sm-12">
-						<div class="card">
-							<div class="card-block">
-								<a href="{{page.url}}">
-									{{page.title}}
-								</a>
-							</div>
-						</div>
-					</div>
+					{% include tile_events.html %}
 					{% endunless %}
 					{% endif %}
 					{% endfor %}
@@ -98,15 +72,7 @@
 					{% for page in sorted_pages %}
 					{% if page.url contains '/jobs' %}
 					{% unless page.name contains 'index' %}
-					<div class="col-sm-12">
-						<div class="card">
-							<div class="card-block">
-								<a href="{{page.url}}">
-									{{page.title}}
-								</a>
-							</div>
-						</div>
-					</div>
+					{% include tile_jobs.html %}
 					{% endunless %}
 					{% endif %}
 					{% endfor %}

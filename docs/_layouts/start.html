@@ -30,20 +30,11 @@
 				</div>
 
 				<div class="row">
-					{% assign sorted_pages = site.pages | sort:"order" %}
+					{% assign sorted_pages = site.pages %}
 					{% for page in sorted_pages %}
 					{% if page.url contains '/companies' %}
 					{% unless page.name contains 'index' %}
-					<div class="col-sm-4">
-						<div class="card">
-							<img src="/images/{{page.image}}" class="card-img-top">
-							<div class="card-block">
-								<a href="{{page.url}}">
-									{{page.title}}
-								</a>
-							</div>
-						</div>
-					</div>
+					{% include tile_image.html %}
 					{% endunless %}
 					{% endif %}
 					{% endfor %}
@@ -58,20 +49,11 @@
 				</div>
 
 				<div class="row">
-					{% assign sorted_pages = site.pages | sort:"order" %}
-					{% for page in sorted_pages %}
-					{% if page.url contains '/founder' %}
+					{% assign sorted_pages = site.pages %}
+					{% for page in sorted_pages%}
+					{% if page.url contains '/founder'   %}
 					{% unless page.name contains 'index' %}
-					<div class="col-sm-4">
-						<div class="card">
-							<img src="/images/{{page.image}}" class="card-img-top">
-							<div class="card-block">
-								<a href="{{page.url}}">
-									{{page.title}}
-								</a>
-							</div>
-						</div>
-					</div>
+					{% include tile_image.html %}
 					{% endunless %}
 					{% endif %}
 					{% endfor %}
@@ -87,19 +69,11 @@
 				</div>
 
 				<div class="row">
-					{% assign sorted_pages = site.pages | sort:"order" %}
+					{% assign sorted_pages = site.pages %}
 					{% for page in sorted_pages %}
-					{% if page.url contains '/events' %}
+					{% if page.url contains '/events'   %}
 					{% unless page.name contains 'index' %}
-					<div class="col-sm-12">
-						<div class="card">
-							<div class="card-block">
-								<a href="{{page.url}}">
-									{{page.title}}
-								</a>
-							</div>
-						</div>
-					</div>
+					{% include tile_events.html %}
 					{% endunless %}
 					{% endif %}
 					{% endfor %}
@@ -114,19 +88,11 @@
 				</div>
 
 				<div class="row">
-					{% assign sorted_pages = site.pages | sort:"order" %}
-					{% for page in sorted_pages %}
+					{% assign sorted_pages = site.pages %}
+					{% for page in sorted_page %}
 					{% if page.url contains '/jobs' %}
 					{% unless page.name contains 'index' %}
-					<div class="col-sm-12">
-						<div class="card">
-							<div class="card-block">
-								<a href="{{page.url}}">
-									{{page.title}}
-								</a>
-							</div>
-						</div>
-					</div>
+					{% include tile_jobs.html %}
 					{% endunless %}
 					{% endif %}
 					{% endfor %}

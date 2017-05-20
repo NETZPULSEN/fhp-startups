@@ -5333,9 +5333,12 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 /*# sourceMappingURL=bootstrap.css.map */
 body {
-  color: #64828c; }
+  color: #64828c;
+  background: #FAFCFC; }
 
 * {
+  margin: 0;
+  padding: 0;
   list-style: none; }
 
 h1 {
@@ -5348,9 +5351,15 @@ h2 {
   padding: 30px 0 15px 0; }
   h2 a {
     color: #FFF; }
+    h2 a:hover {
+      text-decoration: none;
+      color: #FFF; }
 
 a {
   color: #64828c; }
+  a:hover {
+    text-decoration: none;
+    color: #64828c; }
 
 nav {
   z-index: 10; }
@@ -5363,6 +5372,9 @@ nav {
     font-size: 20px;
     font-weight: bold;
     text-shadow: 0 10px 20px rgba(100, 130, 140, 0.4); }
+    nav a:hover {
+      text-decoration: none;
+      color: #FFF; }
 
 .tiles {
   width: 1500px;
@@ -5405,13 +5417,13 @@ nav {
   border: none;
   box-shadow: 0 10px 20px rgba(100, 130, 140, 0.4); }
 
-.footer-nav ul {
+.footer-nav {
   width: auto;
-  float: right; }
-
-.footer-nav li {
-  float: left;
-  padding: 5px 10px; }
+  float: right;
+  padding: 20px 0 0 0; }
+  .footer-nav li {
+    float: left;
+    padding: 5px 10px; }
 
 .card-img-top {
   width: 100%;
