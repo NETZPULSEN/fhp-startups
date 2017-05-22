@@ -1,9 +1,13 @@
 <div class="col-sm-12">
-  <div class="card">
+  <div class="card tile-jobs">
     <div class="card-block">
       <a href="{{page.url}}">
-        {{page.title}}
+        <span>
+          {{page.date}}
+          <strong>{{page.title}}</strong>
+          </span>
       </a>
+      <p>{{page.description}}</p>
     </div>
   </div>
 </div>

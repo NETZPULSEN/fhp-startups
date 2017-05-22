@@ -4,6 +4,4 @@ title: Founder
 
 ---
 
-# Founder
-
 lorem ipsum

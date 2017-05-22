@@ -24,17 +24,20 @@ h1 {
 }
 
 h2 {
-	color: #FFF;
-	text-shadow: 0 10px 20px rgba(100, 130, 140, 0.4);
+	color: $darkblue;
 	padding: 30px 0 15px 0;
 	a {
-		color: #FFF;
+		color: $darkblue;
 
 		&:hover {
 			text-decoration: none;
-			color: #FFF;
+			color: $darkblue;
 		}
 	}
+}
+
+h3 {
+	padding: 20px 0 10px 0;
 }
 
 a {
@@ -57,7 +60,7 @@ nav {
 		color: #D9E9ED;
 		font-size: 20px;
 		font-weight: bold;
-		text-shadow: 0 10px 20px rgba(100, 130, 140, 0.4);
+		text-shadow: 0 10px 30px rgba(100, 130, 140, 0.4);
 
 		&:hover {
 			text-decoration: none;
@@ -72,7 +75,7 @@ nav {
 	position: absolute;
 	z-index: 1;
 	top: -500px;
-	left: -500px;
+	left: -600px;
 
 	transform: rotate(30deg);
 
@@ -98,17 +101,17 @@ nav {
 
 		&-two {
 			height: 800px;
-			opacity: 0.2;
+			opacity: 0.4;
 		}
 
 		&-three {
 			height: 700px;
-			opacity: 0.5;
+			opacity: 0.2;
 		}
 
 		&-four {
 			height: 500px;
-			opacity: 0.4;
+			opacity: 0.1;
 		}
 	}
 }
@@ -144,13 +147,14 @@ nav {
 
 .card-img-top {
 	width: 100%;
-	background: #E7F1F3;
+	background: #F9FBFC;
 }
 
 .tile-jobs {
 
 	a {
 		width: 100%;
+		float: left;
 	}
 	span {
 		float: left;
@@ -166,5 +170,32 @@ nav {
 		float: right;
 		max-height: 90px;
 		margin: -1.25rem 0;
+	}
+}
+
+.page {
+
+	h2 {
+		margin-top: 0px;
+
+		a {
+			display: block;
+			font-size: 14px;
+			padding-bottom: 10px;
+		}
+	}
+
+	.card {
+		margin-top: 10px;
+	}
+	.card-block {
+
+		padding: 2rem;
+
+	}
+
+	.card li {
+		list-style: disc;
+		margin-left: 20px;
 	}
 }

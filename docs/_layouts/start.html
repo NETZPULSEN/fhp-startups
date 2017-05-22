@@ -90,7 +90,7 @@
 				<div class="row">
 					{% assign sorted_pages = site.pages %}
 					{% for page in sorted_page %}
-					{% if page.url contains '/jobs' %}
+					{% if page.url contains '/jobs/' %}
 					{% unless page.name contains 'index' %}
 					{% include tile_jobs.html %}
 					{% endunless %}

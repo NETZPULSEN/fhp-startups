@@ -4,6 +4,4 @@ title: Companies
 
 ---
 
-# Companies
-
 lorem ipsum

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-<body>
+<body class="page">
 	<div class="container" style="position: relative;">
 
 		<div class="row">
@@ -17,6 +17,36 @@
 			<div class="col-sm-8 col-padding">
 				<div class="row">
 					<div class="col-sm-12">
+
+
+						{% if page.url contains '/companies/' %}
+						<h2>
+							<a href="/companies">Companies </a>
+							{{page.title}}
+						</h2>
+						{% else if page.url contains '/founders/' %}
+						<h2>
+							<a href="/founders">Founder </a>
+							{{page.title}}
+						</h2>
+						{% else if page.url contains '/jobs/' %}
+						<h2>
+							<a href="/jobs">Jobs </a>
+							{{page.title}}
+						</h2>
+						{% else if page.url contains '/events/' %}
+						<h2>
+							<a href="/events">Events </a>
+							{{page.title}}
+						</h2>
+						{% else %}
+
+						<h2>{{page.title}}</h2>
+
+						{% endif %}
+
+
+
 						<div class="card">
 							<div class="card-block">
 								{{content}}

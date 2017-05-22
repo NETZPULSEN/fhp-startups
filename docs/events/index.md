@@ -4,6 +4,4 @@ title: Events
 
 ---
 
-# Events
-
 lorem ipsum

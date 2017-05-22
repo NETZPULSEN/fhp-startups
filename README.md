@@ -4,7 +4,7 @@
 
 ## Contributing
 
-If you are a student or alumni of FH Potsdam and have founded a company or startup, you are more than welcome to add your company, open job descriptions and your CV to this website. 
+If you are a student or alumni of FH Potsdam and have founded a company or startup, you are more than welcome to add your company, open job descriptions and your CV to this website.
 
 Please therefore clone the repository and stick to the following guidelines when editing code. When finished please open a pull request and we take care about merging your content to the website.
 

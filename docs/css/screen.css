@@ -5346,14 +5346,16 @@ h1 {
   text-shadow: 0 10px 20px rgba(100, 130, 140, 0.4); }
 
 h2 {
-  color: #FFF;
-  text-shadow: 0 10px 20px rgba(100, 130, 140, 0.4);
+  color: #64828c;
   padding: 30px 0 15px 0; }
   h2 a {
-    color: #FFF; }
+    color: #64828c; }
     h2 a:hover {
       text-decoration: none;
-      color: #FFF; }
+      color: #64828c; }
+
+h3 {
+  padding: 20px 0 10px 0; }
 
 a {
   color: #64828c; }
@@ -5371,7 +5373,7 @@ nav {
     color: #D9E9ED;
     font-size: 20px;
     font-weight: bold;
-    text-shadow: 0 10px 20px rgba(100, 130, 140, 0.4); }
+    text-shadow: 0 10px 30px rgba(100, 130, 140, 0.4); }
     nav a:hover {
       text-decoration: none;
       color: #FFF; }
@@ -5382,7 +5384,7 @@ nav {
   position: absolute;
   z-index: 1;
   top: -500px;
-  left: -500px;
+  left: -600px;
   transform: rotate(30deg); }
   .tiles .col-tiles {
     width: 33%;
@@ -5399,13 +5401,13 @@ nav {
       height: 1000px; }
     .tiles .tiles-box-two {
       height: 800px;
-      opacity: 0.2; }
+      opacity: 0.4; }
     .tiles .tiles-box-three {
       height: 700px;
-      opacity: 0.5; }
+      opacity: 0.2; }
     .tiles .tiles-box-four {
       height: 500px;
-      opacity: 0.4; }
+      opacity: 0.1; }
 
 .col-padding {
   padding-top: 70px; }
@@ -5427,10 +5429,11 @@ nav {
 
 .card-img-top {
   width: 100%;
-  background: #E7F1F3; }
+  background: #F9FBFC; }
 
 .tile-jobs a {
-  width: 100%; }
+  width: 100%;
+  float: left; }
 
 .tile-jobs span {
   float: left;
@@ -5443,3 +5446,20 @@ nav {
   float: right;
   max-height: 90px;
   margin: -1.25rem 0; }
+
+.page h2 {
+  margin-top: 0px; }
+  .page h2 a {
+    display: block;
+    font-size: 14px;
+    padding-bottom: 10px; }
+
+.page .card {
+  margin-top: 10px; }
+
+.page .card-block {
+  padding: 2rem; }
+
+.page .card li {
+  list-style: disc;
+  margin-left: 20px; }

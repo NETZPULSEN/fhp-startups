@@ -4,6 +4,4 @@ title: Jobs
 
 ---
 
-# Jobs
-
 lorem ipsum
