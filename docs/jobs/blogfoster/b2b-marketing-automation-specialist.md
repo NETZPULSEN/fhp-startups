@@ -1,5 +1,6 @@
 ---
 layout: page
+type: job
 
 title: Marketing Automation Specialist
 company: blogfoster GmbH

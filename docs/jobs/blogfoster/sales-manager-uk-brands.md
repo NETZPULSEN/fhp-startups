@@ -1,5 +1,6 @@
 ---
 layout: page
+type: job
 
 title: Sales Manager UK
 company: blogfoster GmbH

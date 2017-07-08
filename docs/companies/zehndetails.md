@@ -1,6 +1,7 @@
 ---
 
 layout: page
+type: company
 
 title: zehndetails GmbH
 key: zehndetails

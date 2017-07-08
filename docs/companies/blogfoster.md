@@ -1,5 +1,6 @@
 ---
 layout: page
+type: company
 
 title: blogfoster GmbH
 key: blogfoster

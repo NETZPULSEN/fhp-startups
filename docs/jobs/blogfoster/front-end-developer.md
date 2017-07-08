@@ -1,5 +1,6 @@
 ---
 layout: page
+type: job
 
 title: Front End Developer
 company: blogfoster GmbH

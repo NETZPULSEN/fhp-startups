@@ -1,6 +1,7 @@
 ---
 
 layout: page
+type: company
 
 title: Small PDF
 key: smallpdf

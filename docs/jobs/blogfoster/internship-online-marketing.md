@@ -1,5 +1,6 @@
 ---
 layout: page
+type: job
 
 title: Internship Online Marketing
 company: blogfoster GmbH

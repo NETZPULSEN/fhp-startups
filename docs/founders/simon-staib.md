@@ -1,5 +1,7 @@
 ---
 layout: page
+type: founder
+
 
 title: Simon Staib
 image: blogfoster_simon_staib.jpg

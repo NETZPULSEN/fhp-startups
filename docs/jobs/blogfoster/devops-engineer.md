@@ -1,5 +1,6 @@
 ---
 layout: page
+type: job
 
 title: Devops Engineer
 company: blogfoster GmbH

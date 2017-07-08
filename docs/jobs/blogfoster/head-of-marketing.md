@@ -1,5 +1,6 @@
 ---
 layout: page
+type: job
 
 title: Head of Marketing at blogfoster
 company: blogfoster GmbH

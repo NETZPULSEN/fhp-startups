@@ -1,5 +1,6 @@
 ---
 layout: page
+type: founder
 
 title: Justus Weweler
 image: "zehndetails_justus_weweler.png"

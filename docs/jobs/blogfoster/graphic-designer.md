@@ -1,5 +1,6 @@
 ---
 layout: page
+type: job
 
 title: Internship Graphic Design
 company: blogfoster GmbH

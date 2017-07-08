@@ -4,19 +4,19 @@
 	</a>
 <ul>
 	<li>
-		<a href="/companies">Companies</a>
+		<a {% if page.url contains '/companies' %} class="active" {% endif %} href="/companies">Companies</a>
 	</li>
 	<li>
-		<a href="/founders">Founder</a>
+		<a {% if page.url contains '/founders' %} class="active" {% endif %} href="/founders">Founder</a>
 	</li>
 	<li>
-		<a href="/events">Events</a>
+		<a {% if page.url contains '/events' %} class="active" {% endif %} href="/events">Events</a>
 	</li>
 	<li>
-		<a href="/jobs">Jobs</a>
+		<a {% if page.url contains '/jobs' %} class="active" {% endif %} href="/jobs">Jobs</a>
 	</li>
 	<li>
-		<a href="/about">About</a>
+		<a {% if page.url contains '/about' %} class="active" {% endif %} href="/about">About</a>
 	</li>
 </ul>
 </nav>

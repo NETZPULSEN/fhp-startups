@@ -1,5 +1,6 @@
 ---
 layout: page
+type: job
 
 title: Full Stack Javascript Developer
 company: blogfoster GmbH

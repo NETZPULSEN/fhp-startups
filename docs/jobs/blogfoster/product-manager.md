@@ -1,5 +1,6 @@
 ---
 layout: page
+type: job
 
 title: Product Manager
 company: blogfoster GmbH

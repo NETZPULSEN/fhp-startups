@@ -5377,6 +5377,8 @@ nav {
     nav a:hover {
       text-decoration: none;
       color: #FFF; }
+    nav a.active {
+      color: #FFF; }
 
 .tiles {
   width: 1500px;
