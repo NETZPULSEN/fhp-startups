@@ -10,7 +10,6 @@
 
 
 			<div class="col-sm-4 col-padding">
-
 				{% include navigation.html %}
 			</div>
 
@@ -20,33 +19,42 @@
 
 
 						{% if page.url contains '/companies' %}
-						<h2>
+						<h3>
 							<a href="/companies">All Companies </a>
 							{{page.title}}
-						</h2>
+						</h3>
+
+        				<!-- <img class="company-logo" src="/images/{{page.key}}_logo.png" /> -->
 						{% endif %}
 						{% if page.url contains 'founders' %}
-						<h2>
+						<h3>
 							<a href="/founders">All Founder </a>
 							{{page.title}}
-						</h2>
+						</h3>
 						{% endif %}
 						{% if page.url contains 'jobs' %}
-						<h2>
+						<h3>
 							<a href="/jobs">All Jobs </a>
 							{{page.title}}
-						</h2>
+						</h3>
 						{% endif %}
 						{% if page.url contains 'events' %}
-						<h2>
-							<a href="/jobs">All Events </a>
-							{{page.title}}
-						</h2>
+						<h3>
+							<a href="/events">All Events </a>
+						</h3>
 						{% endif %}
 
 
 
-						<div class="card">
+							<div class="card">
+							{% if page.url contains 'events' %}
+							<div class="intro card-block">
+								<h3>
+									{{page.title}}
+									<span>{{page.date | date_to_long_string }}</span>
+								</h3>
+							</div>
+							{% endif %}
 							<div class="card-block">
 								{{content}}
 							</div>

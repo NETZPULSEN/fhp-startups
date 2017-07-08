@@ -24,6 +24,19 @@ h1 {
 }
 
 h2 {
+	font-weight: 200;
+	font-size: 45px;
+	line-height: 60px;
+	padding-bottom: 30px;
+
+	small {
+		display: inline-block;
+		font-size: 12px;
+		text-align: right;
+	}
+}
+
+h3 {
 	color: $darkblue;
 	padding: 30px 0 15px 0;
 	a {
@@ -40,10 +53,6 @@ h2 {
 		font-size: 14px;
 		padding-top: 10px;
 	}
-}
-
-h3 {
-	padding: 20px 0 10px 0;
 }
 
 a {
@@ -185,7 +194,7 @@ nav {
 
 .page {
 
-	h2 {
+	h3 {
 		margin-top: 0px;
 
 		a {
@@ -207,5 +216,21 @@ nav {
 	.card li {
 		list-style: disc;
 		margin-left: 20px;
+	}
+}
+
+.intro {
+	min-height: 200px;
+	background: url('/images/bg-tile.jpg');
+
+	h3 {
+		padding-top: 60px;
+		color: white;
+		text-shadow: 0 10px 20px rgba(100, 130, 140, 0.4);
+
+		span {
+			display: block;
+			float: none;
+		}
 	}
 }

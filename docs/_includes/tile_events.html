@@ -3,7 +3,7 @@
     <div class="card-block">
       <a href="{{page.url}}">
         <span>
-          {{page.date}}
+          {{page.date | date_to_long_string }}
           <strong>{{page.title}}</strong>
           </span>
       </a>

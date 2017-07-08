@@ -5346,20 +5346,27 @@ h1 {
   text-shadow: 0 10px 20px rgba(100, 130, 140, 0.4); }
 
 h2 {
+  font-weight: 200;
+  font-size: 45px;
+  line-height: 60px;
+  padding-bottom: 30px; }
+  h2 small {
+    display: inline-block;
+    font-size: 12px;
+    text-align: right; }
+
+h3 {
   color: #64828c;
   padding: 30px 0 15px 0; }
-  h2 a {
+  h3 a {
     color: #64828c; }
-    h2 a:hover {
+    h3 a:hover {
       text-decoration: none;
       color: #64828c; }
-  h2 span {
+  h3 span {
     float: right;
     font-size: 14px;
     padding-top: 10px; }
-
-h3 {
-  padding: 20px 0 10px 0; }
 
 a {
   color: #64828c; }
@@ -5453,9 +5460,9 @@ nav {
   max-height: 90px;
   margin: -1.25rem 0; }
 
-.page h2 {
+.page h3 {
   margin-top: 0px; }
-  .page h2 a {
+  .page h3 a {
     display: block;
     font-size: 14px;
     padding-bottom: 10px; }
@@ -5469,3 +5476,14 @@ nav {
 .page .card li {
   list-style: disc;
   margin-left: 20px; }
+
+.intro {
+  min-height: 200px;
+  background: url("/images/bg-tile.jpg"); }
+  .intro h3 {
+    padding-top: 60px;
+    color: white;
+    text-shadow: 0 10px 20px rgba(100, 130, 140, 0.4); }
+    .intro h3 span {
+      display: block;
+      float: none; }
