@@ -22,7 +22,7 @@ Create a new .md file in /docs/companies. Please copy the following code into yo
 ```
 
 ---
-layout: start
+layout: page
 
 title: Your Company Name
 key: yourcompanynameinoneword
