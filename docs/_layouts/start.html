@@ -24,7 +24,9 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<h2>
-							<a href="/companies">Companies</a>
+							<a href="/companies">Companies
+								<span>Show all</span>
+							</a>
 						</h2>
 					</div>
 				</div>
@@ -43,7 +45,9 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<h2>
-							<a href="/founders">Founder</a>
+							<a href="/founders">Founder
+								<span>Show all</span>
+							</a>
 						</h2>
 					</div>
 				</div>
@@ -63,7 +67,9 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<h2>
-							<a href="/events">Events</a>
+							<a href="/events">Events
+								<span>Show all</span>
+							</a>
 						</h2>
 					</div>
 				</div>
@@ -82,15 +88,17 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<h2>
-							<a href="/jobs">Jobs</a>
+							<a href="/jobs">Jobs
+								<span>Show all</span>
+							</a>
 						</h2>
 					</div>
 				</div>
 
 				<div class="row">
 					{% assign sorted_pages = site.pages %}
-					{% for page in sorted_page %}
-					{% if page.url contains '/jobs/' %}
+					{% for page in sorted_pages %}
+					{% if page.url contains '/jobs'   %}
 					{% unless page.name contains 'index' %}
 					{% include tile_jobs.html %}
 					{% endunless %}

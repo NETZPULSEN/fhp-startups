@@ -5353,6 +5353,10 @@ h2 {
     h2 a:hover {
       text-decoration: none;
       color: #64828c; }
+  h2 span {
+    float: right;
+    font-size: 14px;
+    padding-top: 10px; }
 
 h3 {
   padding: 20px 0 10px 0; }
